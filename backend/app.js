@@ -88,6 +88,7 @@ app.use(authMiddleware);  // Appliquer le middleware d'auth après les routes pu
 app.use('/api/users', userRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/lieu', lieuRoutes);
+
 app.use('/api/programs', programRoutes);
 app.use('/api/catalogs', catalogueRoutes);
 app.use('/api/oeuvres', oeuvreRoutes);

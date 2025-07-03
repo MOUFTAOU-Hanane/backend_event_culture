@@ -89,6 +89,4 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-
-
 module.exports = router;  // Exporter le router pour l'utiliser dans l'application principale
